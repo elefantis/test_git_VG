@@ -2,11 +2,7 @@ function Level( ) {
     let gameObjects = [ ];
     gameObjects.push( new Player( 400, 550 ) );
     gameObjects.push( new Enemy ( Math.floor( Math.random() * WIDTH ), 100 ) );
-    gameObjects.push( new Enemy ( Math.floor( Math.random() * WIDTH ), 100 ) );
-    gameObjects.push( new Enemy ( Math.floor( Math.random() * WIDTH ), 100 ) );
-    gameObjects.push( new Enemy ( Math.floor( Math.random() * WIDTH ), 100 ) );
-    gameObjects.push( new Enemy ( Math.floor( Math.random() * WIDTH ), 100 ) );
-    gameObjects.push( new Enemy ( Math.floor( Math.random() * WIDTH ), 100 ) );
+  
     
     for ( let i = 0; i < 10; i++ ) {
         gameObjects.push( new Bullet(  ) );
